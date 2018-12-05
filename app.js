@@ -1,18 +1,25 @@
 const express = require('express');
+const fs = require('fs');
+const path = require('path');
+
 const app = express();
 
-const fs = require('fs');
+app.set('view engine', 'pug');
+app.set("views", path.join(__dirname, "views"));
 
-function getData(cb){
+
+function getUsers(cb){
   return fs.readFile('data.json', 'utf8', (err, data) => {
     if (err) throw err;
-    return cb(data);
+    const users = JSON.parse(data);
+    return cb(users);
   });
 }
 
 app.get('/', (req, res) => {
-  getData((data) => {
-    res.send(data);
+  getUsers((users) => {
+    console.log(users)
+    res.render('index', {title: "Profile Page", users: users.users});
   });
 });
 
