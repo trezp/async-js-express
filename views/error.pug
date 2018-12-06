@@ -5,10 +5,5 @@ html
     link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato")
     link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
   body
-    ul
-      each user in users 
-        li(class="user")
-          i(class="material-icons") account_box
-          h3 #{user.name}
-          p #{user.username}
-          p #{user.bio}
+    h1 Oh no! Something went wrong!
+    h3 #{error}
