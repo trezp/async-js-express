@@ -1,14 +1,19 @@
 {
   "users": [
     {
-      "name": "George",
-      "username": "Georgie233",
-      "bio": "George is a fisherman"
+      "name": "Dean Winchester",
+      "username": "Impala67",
+      "bio": "Loves to hunt ghosts."
     },
     {
-      "name": "Henry",
-      "username": "Georgie233",
-      "bio": "George is a fisherman"
+      "name": "Ashley Boucher",
+      "username": "ashleyb",
+      "bio": "Bio stuff here"
+    },
+    {
+      "name": "Dr. Gregory House",
+      "username": "persnickety4Lyfe",
+      "bio": "My hobbies include classical piano and being right."
     }
   ]
 }
