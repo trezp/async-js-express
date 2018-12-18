@@ -27,43 +27,6 @@ app.use(express.static('public'))
 //   });
 // });
 
-// EXPERIMENT 
-// function getUsers(){
-//   return new Promise((resolve, reject) => {
-//     fs.readFile('data.json', 'utf8', (err, data) => {
-//       if (err) {
-//         reject(err);
-//       } else {
-//         const users = JSON.parse(data);
-//         resolve(users);
-//       }
-//     });
-//   });
-// }
-// function findUsersWhoArePuppies(data){
-//   return new Promise((resolve, reject) =>{
-//     const puppy = data.users.forEach((user)=>{
-//       if(user.name === "Squash"){
-//         return cb(null, user);
-//       }
-//     })
-//     resolve(puppy);
-//     reject("Fuck something went wrong")
-//   });
-  
-// }
-// app.get('/', (req, res) => {
-//   getUsers((err, data) => {
-//     findUsersWhoArePuppies((err, puppy)=>{
-//       if(err){
-//         res.render('error', {error: err});
-//       } else {
-//         res.render('index', {title: "Profile Page", users: data.users});
-//       }
-//       }) 
-//   });
-// });
-
 //PROMISES 
 // function getUsers(){
 //   return new Promise((resolve, reject) => {

@@ -1,21 +1,25 @@
 {
   "users": [
     {
+      "id": 1,
       "name": "Dean Winchester",
       "username": "Impala67",
       "bio": "Loves to hunt ghosts."
     },
     {
+      "id": 2,
       "name": "Ashley Boucher",
       "username": "ashleyb",
       "bio": "Bio stuff here"
     },
     {
+      "id": 3,
       "name": "Dr. Gregory House",
       "username": "persnickety4Lyfe",
       "bio": "My hobbies include classical piano and being right."
     },
     {
+      "id": 4,
       "name": "Squash",
       "username": "kingcharlesd",
       "bio": "Byfar the cutest office dog at Treehouse"
