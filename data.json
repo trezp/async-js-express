@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Ashley Boucher",
       "username": "ashleyb",
-      "bio": "Bio stuff here"
+      "bio": "Python Teacher at Treehouse"
     },
     {
       "id": 3,
@@ -21,8 +21,8 @@
     {
       "id": 4,
       "name": "Squash",
-      "username": "kingcharlesd",
-      "bio": "Byfar the cutest office dog at Treehouse"
+      "username": "kingcharlesdog",
+      "bio": "The cutest office dog at Treehouse"
     }
   ]
 }
